@@ -1,0 +1,16 @@
+node_modules
+.idea
+*.map
+.nyc_output
+.DS_Store
+.env
+.env-demo
+.env-prod
+compiled/
+*.log
+
+#allow some JS files
+!webpack.config.js
+!knexfile.js
+!migrations/*.js
+!seeds/*.js

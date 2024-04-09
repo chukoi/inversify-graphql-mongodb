@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "target": "es2017",
+    "forceConsistentCasingInFileNames": true,
+    "alwaysStrict": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noUnusedLocals": true,
+    "lib": ["es7", "dom", "es2019"],
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "sourceMap": true,
+    "outDir": "./compiled",
+    "declaration": true,
+    "typeRoots": ["node_modules/@types", "src/types"],
+    "composite": true
+  },
+  "include": ["src/**/*.ts", "mocks/**/*.ts", "tests/**/*.ts"],
+  "exclude": ["./node_modules"]
+}
